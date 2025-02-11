@@ -1,0 +1,72 @@
+body {
+    background: url('images/floresta-nevada.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Georgia', serif;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.8);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.9);
+}
+
+.banner {
+    background: url('images/narnia-banner.jpg') no-repeat center;
+    background-size: cover;
+    padding: 100px 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.9);
+}
+
+.personagens-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.personagem {
+    margin: 15px;
+    text-align: center;
+}
+
+.personagem img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #FFD700;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
