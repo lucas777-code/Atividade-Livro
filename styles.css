@@ -1,0 +1,103 @@
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2d226d;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+img.fruta {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.seta {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+    
+    section {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    img.fruta {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.2em;
+    }
+    
+    section {
+        padding: 10px;
+    }
+    
+    img.fruta {
+        max-width: 200px;
+    }
+    
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
